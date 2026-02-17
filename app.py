@@ -3,8 +3,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-model = joblib.load(r'C:\Users\Jahongir\desktop\Credit_Risk\Data_Preprocessing\credit_risk_model.pkl')
-
+model = joblib.load('credit_risk_model.pkl')
 st.title("💳 Kredit Risk Bashorati")
 st.write("Quyidagi ma'lumotlarni kiriting:")
 
